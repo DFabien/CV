@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pitch - Marlene PINEL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Quicksand:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="cv-index.html" class="logo" title="Logo" >
+                <img src="minis/logo.png" alt="Logo Marlene PINEL">
+            </a>
+
+            <nav class="nav">
+                <ul class="menu">
+                    <li>
+                        <a href="../../index.html" title="Lien vers accueil">Home</a>
+                    </li>
+                    <li>
+                        <a href="cv-index.html" title="Lien vers accueil">Accueil CV</a>
+                    </li>
+                    <li>
+                        <a href="cv-galery.html" title="Lien vers à propos">Galerie</a>
+                    </li>
+
+                    <li>
+                        <a href="cv-pitch.html" title="Lien vers portfolio">Pitch</a>
+                    </li>
+
+                    <li>
+                        <a href="cv-contact.html" title="Lien vers contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="pitch">
+        <div class="container">
+            <h2 class="titre-secondaire">
+                    Mon pitch video
+            </h2>
+            <div class="pseudo-element pseudo-element-mp"></div>
+            <p class="desc-texte">
+                Réalisée pour l'entrée en formation de technicien developpeur au sein du Campus in the Alps.
+            </p>
+               
+            <div class="media">
+                <div class="video">
+                    <video class="video" src="minis/pitch-video.mp4" controls></video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <img src="minis/fleche-vers-le-haut.png" alt="Go to top arrow">
+    </button>
+    
+
+    <footer class="footer">
+            <div class="container">
+                <div class="logo">
+                    <a href="cv-index.html" class="logo" title="Logo"></a>
+                    <img src="minis/logo.png" alt="Logo Marlene PINEL">
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hobby</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Quicksand:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo" title="Logo" >
+                <img src="images/logo.png" alt="logo-de-fabien">
+            </a>
+
+            <nav class="nav">
+                <ul class="menu">
+                    <li>
+                        <a href="../../index.html" title="Lien vers accueil">Accueil</a>
+                    </li>
+                    <li>
+                    	<a href="cv2.html" title="lien vers accueil cv">cv</a>
+                    </li>
+                    <li>
+                        <a href="hobbies.html" title="Lien vers à propos">Hobbies</a>
+                    </li>
+
+                    <li>
+                        <a href="video-pitch.html" title="Lien vers portfolio">Video Pitch</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" title="Lien vers contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="inspiration">
+        <div class="container">
+            <h2 class="titre-secondaire">
+                Mon inspiration
+            </h2>
+            <div class="pseudo-element"></div>
+
+            <div class="video">
+
+                <div>
+					<iframe width="764" height="430" src="https://www.youtube.com/embed/kh29_SERH0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 	picture-in-picture" allowfullscreen class="videop"></iframe>
+				</div>
+
+                <div class="media-desc">
+                    <h2 class="titre-trois">
+                        Le Snowboard
+                    </h2>
+                    <p class="contenu">
+					J'ai commencé le snowboard il y a une dizaine d'années, la sensation de flotter lorsque je suis dans de la poudreuse et de ne plus sentir le sol me permet de m'évader.
+					La difference majeure avec le ski est la façcon dont on va appréhender la descente, les sensation sont vraiment différentes que ce soit au niveau des reliefs présent sur la piste ou meme la vitesse qui est perçu complétement differement                    </p>
+                   
+                </div>
+            </div>
+            <a href="https://www.youtube.com/watch?v=kh29_SERH0Y" title="Liens vers vidéo YouTube" target="_blank" class="btn">
+                Liens vers la vidéo si elle ne marche pas
+            </a>
+        </div>
+    </div>
+
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <img src="img/up-arrow.svg" alt="Go to top arrow">
+    </button> -->
+    
+    
+
+   <!--  <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo Tommy VANG">
+                <a href="https://www.linkedin.com/in/tommy-vang-005230140/" title="Liens Linkedin de Tommy VANG" class="rs" target="_blank">
+                    <img src="img/linkedin-logo.svg" alt="Logo Linkedin">
+                </a>
+            </div>
+        </div>
+    </footer> -->
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../../css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Quicksand:300,400,500,700" rel="stylesheet">
+        <title>CV Contact</title>
+    </head>
+    <body>
+    <header class="header">
+        <div class="container">
+          <a href="CV_principale.html" class="logo" title="Logo"><img src="images/MV_logo.png" alt="logo"></a>
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="../../index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="CV_principale.html">CV </a>
+                    </li>
+                    <li>
+                        <a href="CV_hobby.html">HOBBIES </a>
+                    </li>
+                    <li>
+                        <a href="CV_pitch.html">PITCH </a>
+                    </li>
+                    <li>
+                        <a href="CV_contact.html">CONTACT </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <a href="images/photo_MV.jpg"><img src="images/photo_MV_mini.jpg" alt="Photo d'identité Matthias" /></a> -->
+        </div>    
+    </header>
+
+
+
+    	<h2 class="titre-secondaire">Me contacter</h2>
+      <div class="pseudo-element"></div>
+
+        <div class="contact">
+          <form method="post" action="https://httpbin.org/post">
+            <div class="form-civilite">
+              <input type="radio" name="civilite" id="gender-monsieur" value="monsieur" checked>
+              <label for="gender-monsieur">Monsieur</label>
+              <input type="radio" name="civilite" id="gender-madame" value="madame">
+              <label for="gender-madame">Madame</label>
+            </div>
+
+            <div>
+              <label for="nom">Nom :</label>
+              <input type="text" name="nom" id="nom" placeholder="Ex : Dupont" size="30" maxlength="29" required /><br />
+            </div>
+
+            <div>
+              <label for="prenom">Prénom :</label>
+              <input type="text" name="prenom" id="prenom" placeholder="Ex : Durant" size="30" maxlength="29" /><br />
+            </div>
+
+            <div>
+              <label for="e_mail">E-mail :</label>
+              <input type="email" name="e_mail" id="e_mail" placeholder="ex : dupont@domaine.fr" size="50" maxlength="49" required /><br />
+            </div>
+
+            <div class="form-objet">
+              <label for="objet">L'objet de votre mail :</label>
+
+              <select name="objet" id="objet">
+                <option value="" disabled selected>Veuillez choisir</option>
+                <option value="recrutement">Offre de recrutement</option>
+                <option value="services">Besoin de votre service</option>
+                <option value="rendez-vous">Demande d'entretien</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+
+            <div class="form-message">
+              <label for="message">Saisissez<br />votre message :</label>
+              <textarea name="message" id="message"></textarea><br />
+            </div>
+
+            <input class="btn" type="submit" value="Envoyer">
+          </form>
+        </div>
+
+        <p>
+          <a class="home_CV" href="CV_principale.html" title="Retour">Accueil</a>
+        </p>
+
+      
+    </body>
+</html>    

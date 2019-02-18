@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<!-- <link rel="stylesheet" href="style.css" /> -->
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Quicksand:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+		<title>Page de contact</title>
+	</head>
+
+		<body>
+			<header class="header">
+        <div class="container">
+            <a href="index.html" class="logo" title="Logo" >
+                <img src="images/logo.png" alt="logo-de-fabien">
+            </a>
+
+            <nav class="nav">
+                <ul class="menu">
+                    <li>
+                        <a href="../../index.html" title="Lien vers accueil">Accueil</a>
+                    </li>
+                    <li>
+                    	<a href="cv2.html" title="lien vers accueil cv">cv</a>
+                    </li>
+                    <li>
+                        <a href="hobbies.html" title="Lien vers à propos">Hobbies</a>
+                    </li>
+
+                    <li>
+                        <a href="video-pitch.html" title="Lien vers portfolio">Video Pitch</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" title="Lien vers contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+			<h2 class="titre-secondaire">Page de contact</h2>
+			<div class="pseudo-element">
+
+            </div>
+		
+	<div class="containerf">
+		<div class="contactf">
+			<form action="https://httpbin.org/post" method="post">
+				
+				<div class="choix">
+				<input type="radio" id="choix_1" name="etat-civil" value="Monsieur" checked="">
+				<label for="choix_1">Monsieur</label>
+
+				<input type="radio" id="choix_2" name="etat-civil" value="Madame">
+				<label for="choix_1">Madame</label>
+
+				<input type="radio" id="choix_3" name="etat-civil" value="Mlle">
+				<label for="choix_1">Mlle</label>
+			</div>
+				<p>
+					Nom :
+					<input type ="text" required name="nom" />
+				</p>
+				<p>
+					Email :
+					<input type="text" required name="Email" />
+				</p>
+				<select id="selectionner-le-motif-de-contact">
+					<option value="">Merci de selectionner</option>
+					<option value="renseignement">Renseignement</option>
+					<option value="jobs">Job</option>
+					<option value="autres">Autres motifs</option>
+				</select>
+				<div>
+					<p>Message :</p>
+					<label for="message"></label>
+					<textarea id="message"  name="note" rows="10" cols="70" required placeholder="Veuillez laissez votre message ... "></textarea>
+
+				</div>
+				<p>
+				<input type="radio" id="robot" name="bot" value="choix" required>
+				<label for="robot">Je ne suis pas un robot</label>
+			</p>
+				<input type = "submit" value="Envoyer"  />
+			</form>
+		</div>
+
+		<div class="logo-thanks">
+			<img src="images/merci.png" title="merci" class="picto" />
+		</div>
+	</div>	
+
+			
+		
+		
+	</body>
+</html>

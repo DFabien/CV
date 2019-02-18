@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KitKatre</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700">    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <a href="index.html" class="logo" title="Logo" >
+                <img src="img/logo-k4.png" alt="Logo KitKatre">
+            </a>
+            <nav class="nav">
+                <ul class="menu">
+                    <li>
+                        <a href="index.html" title="Lien vers accueil">
+                            Accueil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sites/pinel-marlene/cv-index.html" title="Lien vers CV Marlène">
+                            Marlène
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="sites/dobon-fabien/cv2.html" title="Lien vers portfolio">Fabien</a>
+                    </li>
+
+                    <li>
+                        <a href="sites/virat-matthias/CV_principale.html" title="Lien vers contact">Matthias</a>
+                    </li>
+                    <li>
+                        <a href="sites/vang-tommy/index.html" title="Liens vers le mémo">Tommy</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="projet col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <div class="container-fluid">
+            <h2 class="titre-secondaire">KitKatre<br>Qui sommes-nous ?</h2>
+            <div class="pseudo-element"></div>
+            
+            <div class="center-projet">
+                <figure class="lien-projet col-lg-4 col-md-6 col-sm-12">
+                    <a href="sites/pinel-marlene/cv-index.html" class="btn-projet" target="_blank">
+                        <img src="img/photo-marlene.jpg" alt="Photo de Marlene PINEL" title="Photo de Marlène PINEL">
+                        <figcapion class="desc-projet">
+                            Voir le CV de<br><span class="titre-trois color-gris">Marlene PINEL</span>
+                        </figcaption>
+                    </a>
+                </figure>
+
+                <figure class="lien-projet col-lg-4 col-md-6 col-sm-12">
+                    <a href="sites/dobon-fabien/cv2.html" class="btn-projet" target="_blank">
+                        <img src="img/photo-fabien.jpg" alt="Photo de Fabien DOBON" title="Photo de Fabien DOBON">
+                        <figcapion class="desc-projet">
+                            Voir le CV de<br><span class="titre-trois color-gris">Fabien DOBON</span>
+                        </figcaption>
+                    </a>
+                </figure>
+
+                <figure class="lien-projet col-lg-4 col-md-6 col-sm-12">
+                    <a href="sites/virat-matthias/CV_principale.html" class="btn-projet" target="_blank">
+                        <img src="img/photo-matthias.jpg" alt="Photo de Matthias VIRAT" title="Photo de Martthias VIRAT">
+                        <figcapion class="desc-projet">Voir le CV de<br><span class="titre-trois color-gris">Matthias VIRAT</span></figcaption>
+                    </a>
+                </figure>
+
+                <figure class="lien-projet col-lg-4 col-md-6 col-sm-12">
+                    <a href="sites/vang-tommy/index.html" class="btn-projet" target="_blank">
+                        <img src="img/photo-tommy.jpg" alt="Photo de Tommy VANG" title="Photo de Tommy VANG">
+                        <figcapion class="desc-projet">
+                            Voir le CV de<br><span class="titre-trois color-gris">Tommy VANG</span>
+                        </figcaption>
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="index.html" title="Liens vers l'accueil du site">
+                    <img src="img/logo-k4.png" alt="Logo KitKatre" title="KitKatre">
+                </a>
+                <a href="#" title="Liens vers les mentions légales" target="_blank" class="mention-legale">
+                    Mentions légales
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
